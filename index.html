@@ -58,12 +58,42 @@
         </ul>
       </div>
       <div class="bottom-navigation">
-        <p class="catalog-link"><a href="catalog.html">Католог товаров</a></p>
+        <div class="catalog-link">
+          <a href="catalog.html" class="catalog">Католог товаров</a>
+          <div class="categories-hover">
+            <ul class="catalog-menu-list">
+              <li class="catalog-menu-item">
+                <a href="">Виртуальная реальность
+                </a>
+              </li>
+              <li class="catalog-menu-item">
+                <a href="">Моноподы для селфи</a>
+              </li>
+              <li class="catalog-menu-item">
+                <a href="">Экшн-камеры</a>
+              </li>
+            </ul>
+            <ul class="catalog-menu-list">
+              <li class="catalog-menu-item">
+                <a href="">Фитнес-браслеты</a>
+              </li>
+              <li class="catalog-menu-item">
+                <a href="">Умные часы</a>
+              </li>
+            </ul>
+            <ul class="catalog-menu-list">
+              <li class="catalog-menu-item">
+                <a href="">Квадрокоптеры</a>
+              </li>
+            </ul>
+          </div>
+        </div>
         <ul class="site-navigation">
-          <li class="site-navigation-item diliver"><a href="diliver.html">Доставка</a></li>
-          <li class="site-navigation-item guarantee"><a href="guarantee.html">Гарантия</a></li>
+          <li class="site-navigation-item diliver"><a href="#dilivery">Доставка</a></li>
+          <li class="site-navigation-item guarantee"><a href="#">Гарантия</a></li>
           <li class="site-navigation-item "><a href="#contacts">Контакты</a></li>
         </ul>
+
       </div>
     </nav>
   </header>
@@ -73,8 +103,8 @@
       <section class="slider mini-container">
         <h2 class="visually-hidden">Самые продаваемые товары</h2>
         <p class="slide-photo-container">
-          <a href="product-1-1.html"><img src="img/slider-1.png" alt="Фото стабилизатора" wght="384px" height="
-            486px"></a>
+          <img src="img/slider-1.png" alt="Фото стабилизатора" wght="384px" height="
+            486px">
         </p>
         <div class="slider-description">
           <p class="slider-title">Делай селфи, <br>
@@ -167,20 +197,36 @@
       <div class="container">
         <ul class="features-list">
           <li class="features-item">
-            <a class="features-link" href="#">Доставка</a>
+            <a class="features-link" href="#" id="dilivery">Доставка</a>
           </li>
           <li class="features-item">
-            <a class="features-link" href="#">Гарантия</a>
+            <a class="features-link" href="#" id="guarantee">Гарантия</a>
           </li>
           <li class="features-item">
-            <a class="features-link" href="#">Кредит</a>
+            <a class="features-link" href="#" id="credit">Кредит</a>
           </li>
         </ul>
         <div class="features-description">
-          <h3 class="features-title">Доставка</h3>
-          <p class="features-text">
-            Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.
-          </p>
+         <ul class="features-description-list"> 
+           <li class="features-description-item delivery-des ">
+              <h3 class="features-title">Доставка</h3>
+              <p class="features-text">
+                Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.
+              </p>
+           </li>
+           <li class="features-description-item guarantee-des hide-des">
+              <h3 class="features-title">Гарантия</h3>
+              <p class="features-text ">
+                Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.Товар, не дом, конечно же.
+              </p>
+           </li>
+           <li class="features-description-item credit-des hide-des">
+              <h3 class="features-title">Кредит</h3>
+              <p class="features-text">
+                Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.
+              </p>
+           </li>
+         </ul>
         </div>
       </div>
     </section>
@@ -225,7 +271,7 @@
   
          <p class="map-container"> <a href=""><img src="img/mini-map.jpg" alt="Карта с указанием адреса"></a></p>
   
-          <p class="more-link-container"><a href="" class="more-link">Напишите нам</a></p>
+          <p class="more-link-container"><a href="#" class="more-link write">Напишите нам</a></p>
         </section>
       </div>
     </div>
@@ -252,26 +298,27 @@
 
         <ul class="footer-user-navigation-list">
           <li class="footer-user-navigation-item login">
+            <a href="login.html">Войти</a>
             <svg class="icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="13px" height="12px" viewBox="0 0 13 12" enable-background="new 0 0 13 12" xml:space="preserve">
 <path fill="#272525" d="M0.032,12h12.937c-0.163-2.643-2.074-4.837-4.671-5.543C9.306,5.846,9.985,4.75,9.985,3.485
 	C9.985,1.561,8.425,0,6.5,0S3.015,1.561,3.015,3.485c0,1.264,0.68,2.361,1.688,2.972C2.106,7.163,0.194,9.357,0.032,12z"/>
 </svg>
 
-            <a href="login.html">Войти</a>
             
           </li>
           <li class="footer-user-navigation-item compare">
+            <a href="login.html">Сравнить</a>
             <svg class="icon comp" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             width="10px" height="10px" viewBox="0 0 10 10" enable-background="new 0 0 10 10" xml:space="preserve">
               <rect y="3" width="1.984" height="7"/>
               <rect x="8" y="2" width="1.984" height="8"/>
               <rect x="4" width="2" height="10"/>
           </svg>
-            <a href="login.html">Сравнить</a>
 
           </li>
           <li class="footer-user-navigation-item cart">
+            <a href="login.html">Корзина</a>
             <svg class="icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="12px" height="12px" viewBox="0 0 12 12" enable-background="new 0 0 12 12" xml:space="preserve">
 <g>
@@ -284,13 +331,39 @@
 		C8.577,0.773,7.761,0,6.636,0H5.557C4.367,0,3.398,0.826,3.398,1.84v2.25C3.398,4.315,3.592,4.499,3.829,4.499z"/>
 </g>
 </svg>
-            <a href="login.html">Корзина</a>
+            
           </li>
         </ul>
-        
+        <p class="left-footer-text">Тел.: +7 (495) 495-95-95
+
+        </p>
       </div>
     </div>
   </footer>
+  <section class="write-popup">
+    <form action="http://echo.htmlacademy.ru" method="post" class="writeF">
+
+  <p class="writeF-item">
+    <label for="writeF-name">Ваше имя:</label> 
+      <input type="text" name="name" id="writeF-name" placeholder="Имя Фамилия">
+  </p>
+  <p class="writeF-item">
+    <label for="writeF-email">Ваш e-mail:</label>
+    <input type="email" name="e-mail" id="writeF-email" placeholder="email@example.com">
+  </p>
+  <p class="writeF-text">
+    <label for="writeF-text">Текст письма:</label>
+    <textarea name="text" id="writeF-text" 
+    placeholder="В свободной форме"></textarea>
+  </p>
+  <button type="submit" class="popup-submit">Отправить</button>
+  <button class="close-btn" type="button"></button>
+
+</form>
+  
+
+  </section>
+  <script src="script.js"></script>
 </body>
 
 </html>
