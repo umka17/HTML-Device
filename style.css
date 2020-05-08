@@ -794,6 +794,7 @@ img {
 
 .contacts {
   width: 560px;
+  position: relative;
 }
 
 .about-us::before,
@@ -870,7 +871,15 @@ img {
 }
 
 .map-container {
-  margin-bottom: 90px;
+  position: absolute;
+  bottom: 125px;
+  z-index: 0;
+}
+.frame-map{
+  position: relative;
+  z-index: 1;
+  margin-bottom: 80px;
+
 }
 
 main {

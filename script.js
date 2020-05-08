@@ -10,14 +10,17 @@ var guaranteeDes = document.querySelector(".guarantee-des")
 var creditItem = document.querySelector("#credit")
 var creditDes = document.querySelector(".credit-des")
 var features = document.querySelector(".features")
+var nameInput = document.querySelector("#writeF-name")
  
 loginLink.addEventListener("click", function(e){
   e.preventDefault();
   popup.classList.add("modal-show");
+  nameInput.focus();
 })
 loginClose.addEventListener("click", function(e){
   e.preventDefault();
   popup.classList.remove("modal-show")
+
 })
 
 guaranteeLink.addEventListener("click", function(e){
